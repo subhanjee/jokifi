@@ -1,0 +1,28 @@
+.text-nvbr {
+  color: black !important;
+  font-size: 1.5rem !important;
+  font-family: "Luckiest Guy" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  padding: 1.5rem !important;
+  text-align: center !important;
+}
+.wallet-btn {
+  background-color: black !important;
+  width: 15rem !important;
+  padding: 0.8rem !important;
+  border-radius: 0.3rem !important;
+  text-align: center !important;
+  color: white !important;
+  font-family: "Luckiest Guy" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  box-shadow: 0px 11px 19px 0px #00000073;
+  margin-left: 2rem;
+  border: #00000073 1px solid;
+}
+.center-btn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

@@ -1,0 +1,33 @@
+.bg-footer {
+  background-color: black;
+}
+.center-col-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.div-footimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+}
+.footimg-size {
+  width: 3rem;
+}
+.text-foot {
+  font-family: "Audiowide" !important;
+  font-style: normal !important;
+  color: #ffffff;
+  font-size: 2rem;
+}
+.text-foot1 {
+  font-family: "Audiowide" !important;
+  font-style: normal !important;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  text-align: end;
+  margin-top: -0.5rem;
+}
