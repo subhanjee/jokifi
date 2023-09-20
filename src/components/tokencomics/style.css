@@ -11,12 +11,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../../images/Ellipse\ 12.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
   height: 80vh;
+}
+.pos-img {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 80vh;
+}
+.pos-img1 {
+  position: absolute;
+  z-index: -1;
+  width: 53.5vw;
+  height: 80vh;
+  left: 0;
 }
 .center-col-token1 {
   display: flex;
@@ -24,8 +32,7 @@
   align-items: center;
   flex-direction: column;
 }
-.col-bg {
-}
+
 .vect-token {
   height: 32rem;
   margin-left: 1rem;
@@ -74,37 +81,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 38rem;
 }
 .pink-div {
   background: #ffd1b7;
   width: 7rem;
   height: 12rem;
-  margin-bottom: 0.5rem;
-  margin-top: -4rem;
+  margin-bottom: 1rem;
+  margin-top: -6rem;
 }
 .pink1-div {
   background: #e6c4c8;
   width: 7rem;
   height: 6rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .pink2-div {
   background: #d5bbd4;
   width: 7rem;
   height: 4rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .pink3-div {
   background: #c7b4dd;
   width: 7rem;
   height: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 .pink4-div {
   background: #bcaee4;
   width: 7rem;
   height: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 .tok-img {
   height: 15rem;
@@ -125,4 +133,25 @@
   color: black;
   text-align: center;
   margin-top: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .pos-img1 {
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    height: 80vh;
+    left: 0;
+  }
+}
+@media (max-width: 375px) {
+  .div-tokn-percent {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    border-image-slice: 1;
+    border-radius: 1rem !important;
+    width: 42rem;
+    padding: 2rem;
+  }
 }

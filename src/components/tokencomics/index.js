@@ -5,13 +5,16 @@ import vector from "../../images/Vector 4.png";
 import vector1 from "../../images/Vector 7.png";
 import face from "../../images/image 15 (1).png";
 import vector2 from "../../images/Vector 5.png";
+import vector3 from "../../images/Ellipse 12.png";
+import vector4 from "../../images/Ellipse 13.png";
 function Tokencomics() {
   return (
     <div className="main-token">
       <div>
         <Row justify="center">
-          <Col lg={10} xl={8} xxl={8} md={12} className="col-bg ">
+          <Col lg={11} xl={8} xxl={8} md={12} className="col-bg ">
             <div className="center-col-token">
+              <img src={vector3} alt="" className="pos-img" />
               <div className="div-token">
                 <div>
                   <p className="text-token">
@@ -32,7 +35,6 @@ function Tokencomics() {
                 </div>
                 <img src={vector1} alt="" className="vect-token" />
                 <img src={vector} alt="" className="vect-token1" />
-
                 <div>
                   {" "}
                   <p className="text-token">
@@ -74,8 +76,10 @@ function Tokencomics() {
               </div>
             </div>
           </Col>
-          <Col lg={10} xl={8} xxl={8} md={12}>
+          <Col lg={11} xl={10} xxl={8} md={12}>
             <div className="center-col-token1">
+              <img src={vector4} alt="" className="pos-img1" />
+
               <div className="div-tokn-percent">
                 <div>
                   <p className="tokis-text">Tokencomics</p>

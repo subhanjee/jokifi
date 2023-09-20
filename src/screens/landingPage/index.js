@@ -6,6 +6,7 @@ import Footer from "../../components/footer";
 import Airdrop from "../../components/airdrop";
 import Team from "../../components/team";
 import Tokencomics from "../../components/tokencomics";
+import About from "../../components/about";
 function LandingPage() {
   return (
     <div>
@@ -31,6 +32,7 @@ function LandingPage() {
       </div>
       <br />
       <CollapsibleExample />
+      <About />
       <Tokencomics />
       <Team />
       <Airdrop />
