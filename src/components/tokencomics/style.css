@@ -1,0 +1,128 @@
+.div-token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-token {
+  padding: 40px 0px;
+}
+.center-col-token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../images/Ellipse\ 12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+.center-col-token1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-bg {
+}
+.vect-token {
+  height: 32rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.vect-token1 {
+  position: absolute;
+  margin-top: -12rem;
+  width: 40rem;
+}
+.vect-token2 {
+  position: absolute;
+  margin-top: 6.5rem;
+  width: 40rem;
+}
+.text-token {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-size: 1.6rem;
+  font-weight: bold !important;
+  color: black !important;
+  margin-bottom: 4rem;
+}
+.text1-token {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-size: 1.1rem;
+  font-weight: 800 !important;
+  color: black !important;
+  margin-bottom: 4rem;
+}
+.div-tokn-percent {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+  border-image-slice: 1;
+  border-radius: 1rem !important;
+  width: 45rem;
+  padding: 2rem;
+}
+.size-vec {
+  height: 1rem;
+}
+.div-token-bit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pink-div {
+  background: #ffd1b7;
+  width: 7rem;
+  height: 12rem;
+  margin-bottom: 0.5rem;
+  margin-top: -4rem;
+}
+.pink1-div {
+  background: #e6c4c8;
+  width: 7rem;
+  height: 6rem;
+  margin-bottom: 0.5rem;
+}
+.pink2-div {
+  background: #d5bbd4;
+  width: 7rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+.pink3-div {
+  background: #c7b4dd;
+  width: 7rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
+.pink4-div {
+  background: #bcaee4;
+  width: 7rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.tok-img {
+  height: 15rem;
+}
+.tokis-text {
+  font-family: "Audiowide" !important;
+  font-style: normal !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.tokis-text1 {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 0.5rem;
+}

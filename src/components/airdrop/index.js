@@ -1,4 +1,4 @@
-import { Col, Row, Form, Input, Button } from "antd";
+import { Col, Row, Form, Input } from "antd";
 import React from "react";
 import "./style.css";
 import airImge from "../../images/image 20 (2).png";
@@ -11,7 +11,7 @@ const onFinishFailed = (errorInfo) => {
 };
 function Airdrop() {
   return (
-    <div>
+    <div className="main-divvv">
       <Row justify="center">
         <Col>
           <div className="center-col-air1">
@@ -26,15 +26,15 @@ function Airdrop() {
               <div className="black-div-air">
                 <div>
                   <p className="text-air4">0</p>
-                  <p className="text-air4">Your Entries</p>
+                  <p className="text-air6 ">Your Entries</p>
                 </div>
                 <div>
                   <p className="text-air4">54,789</p>
-                  <p className="text-air4">Total Entries</p>
+                  <p className="text-air6 ">Total Entries</p>
                 </div>
                 <div>
                   <p className="text-air4">92</p>
-                  <p className="text-air4">Days Left</p>
+                  <p className="text-air6 ">Days Left</p>
                 </div>
               </div>
               <p className="text-air2 ">

@@ -4,6 +4,8 @@ import "./style.css";
 import ContactUs from "../../components/contactUs";
 import Footer from "../../components/footer";
 import Airdrop from "../../components/airdrop";
+import Team from "../../components/team";
+import Tokencomics from "../../components/tokencomics";
 function LandingPage() {
   return (
     <div>
@@ -29,6 +31,8 @@ function LandingPage() {
       </div>
       <br />
       <CollapsibleExample />
+      <Tokencomics />
+      <Team />
       <Airdrop />
       <ContactUs />
       <Footer />
