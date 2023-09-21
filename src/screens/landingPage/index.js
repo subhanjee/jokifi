@@ -7,6 +7,7 @@ import Airdrop from "../../components/airdrop";
 import Team from "../../components/team";
 import Tokencomics from "../../components/tokencomics";
 import About from "../../components/about";
+import HeroSection from "../../components/heroSection";
 function LandingPage() {
   return (
     <div>
@@ -32,6 +33,7 @@ function LandingPage() {
       </div>
       <br />
       <CollapsibleExample />
+      <HeroSection />
       <About />
       <br />
       <br />
@@ -39,7 +41,6 @@ function LandingPage() {
       <br />
       <br />
       <br />
-
       <Tokencomics />
       <Team />
       <Airdrop />
