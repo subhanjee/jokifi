@@ -33,6 +33,13 @@ function LandingPage() {
       <br />
       <CollapsibleExample />
       <About />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
       <Tokencomics />
       <Team />
       <Airdrop />
