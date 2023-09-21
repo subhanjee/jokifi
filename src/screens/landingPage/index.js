@@ -34,6 +34,8 @@ function LandingPage() {
       <br />
       <CollapsibleExample />
       <HeroSection />
+      <br />
+      <br />
       <About />
       <br />
       <br />

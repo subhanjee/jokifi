@@ -143,6 +143,7 @@
     left: 0;
   }
 }
+
 @media (max-width: 375px) {
   .div-tokn-percent {
     background-color: white;

@@ -79,7 +79,6 @@ function Tokencomics() {
           <Col lg={11} xl={10} xxl={8} md={12}>
             <div className="center-col-token1">
               <img src={vector4} alt="" className="pos-img1" />
-
               <div className="div-tokn-percent">
                 <div>
                   <p className="tokis-text">Tokencomics</p>

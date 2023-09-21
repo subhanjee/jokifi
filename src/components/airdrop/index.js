@@ -3,6 +3,7 @@ import React from "react";
 import "./style.css";
 import airImge from "../../images/image 20 (2).png";
 import airImge1 from "../../images/image 21 (1).png";
+import airImge2 from "../../images/Ellipse 16 (1).png";
 const onFinish = (values) => {
   console.log("Success:", values);
 };
@@ -15,6 +16,7 @@ function Airdrop() {
       <Row justify="center">
         <Col>
           <div className="center-col-air1">
+            <img src={airImge2} alt="" className="air-pos-air"/>
             <div className="div-airr">
               <p className="text-air ">Airdrop Whitelist</p>
               <p className="text-air1 ">

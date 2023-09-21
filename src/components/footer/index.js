@@ -10,7 +10,7 @@ function Footer() {
     <div>
       <div className="bg-footer">
         <Row justify="center">
-          <Col lg={12} md={12} xs={24}>
+          <Col xl={12} lg={12} md={12} xs={24}>
             <div className="center-col-footer">
               <div className="div-footimg">
                 <img src={footImage1} alt="" className="footimg-size" />
@@ -19,7 +19,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col lg={12} md={12} xs={24}>
+          <Col xl={12} lg={12} md={12} xs={24}>
             <div className="center-col-footer">
               <div>
                 <p className="text-foot">From The Makers Of Shiba INU</p>

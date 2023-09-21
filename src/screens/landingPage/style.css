@@ -1,6 +1,7 @@
 .flex-land {
   background-color: black;
   color: white;
+  margin-top: 1rem;
 }
 .flex-land1 {
   display: flex;
@@ -10,7 +11,7 @@
 .text-land {
   font-family: "Fugaz One" !important;
   font-style: normal !important;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   text-align: center !important;
   margin-left: 0.4rem;
   margin-top: 0.5rem;

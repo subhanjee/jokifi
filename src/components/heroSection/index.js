@@ -11,6 +11,21 @@ import coin1 from "../../images/Vector (25).png";
 import coin2 from "../../images/Vector (26).png";
 import image from "../../images/image 3.png";
 import Timer from "../timer";
+import cloud from "../../images/Yuppies Doodle Cloud 2.png";
+import immm from "../../images/image 4.png";
+import immm1 from "../../images/image 8.png";
+import immm2 from "../../images/image 10.png";
+import immm3 from "../../images/Vector (27).png";
+import immm4 from "../../images/Yuppies Black Lighting.png";
+import immm5 from "../../images/Yuppies Cat.png";
+import immm6 from "../../images/image 9.png";
+import immm7 from "../../images/image 11.png";
+import immm8 from "../../images/Yuppies Doodle Cloud 3.png";
+import immm9 from "../../images/Yuppies Clock.png";
+import immm10 from "../../images/Yuppies Doodle Cloud 4.png";
+import immm11 from "../../images/Yuppies Doodle Cloud 5.png";
+import immm12 from "../../images/Yuppies Doodle Cloud 1.png";
+
 const onFinish = (values) => {
   console.log("Success:", values);
 };
@@ -20,10 +35,16 @@ const onFinishFailed = (errorInfo) => {
 function HeroSection() {
   return (
     <div className="main-jokefi">
+      <img src={cloud} className="cloud-img" />
       <div>
         <Row justify="center">
           <Col xxl={5} xl={8} lg={10} md={11}>
             <div className="center-joke-col1">
+              <img src={immm8} alt="" className="imm-pos8" />
+              <img src={immm9} alt="" className="imm-pos9" />
+              <img src={immm10} alt="" className="imm-pos10" />
+              <img src={immm} alt="" className="imm-pos" />
+              <img src={immm1} alt="" className="imm-pos1" />
               <div className="margin-hero">
                 <img src={joke} alt="" className="siz-joke" />
                 <img src={fi} alt="" className="siz-joke1" />
@@ -31,12 +52,19 @@ function HeroSection() {
                   <img src={react} alt="" className="siz-joke2" />
                   <img src={react1} alt="" className="siz-joke2" />
                 </div>
-                <img />
+                <img src={immm2} alt="" className="imm-pos2" />
+                <img src={immm3} alt="" className="imm-pos3" />
               </div>
             </div>
           </Col>
           <Col xxl={5} xl={8} lg={10} md={11}>
             <div className="center-joke-col">
+              <img src={immm4} alt="" className="imm-pos4" />
+              <img src={immm5} alt="" className="imm-pos5" />
+              <img src={immm11} alt="" className="imm-pos11" />
+              <img src={immm12} alt="" className="imm-pos12" />
+
+              <img />
               <div className="div-timer">
                 <Timer />
                 <div className="center-proo">
@@ -141,6 +169,8 @@ function HeroSection() {
                   </div>
                 </div>
               </div>
+              <img src={immm6} alt="" className="imm-pos6" />
+              <img src={immm7} alt="" className="imm-pos7" />
             </div>
           </Col>
         </Row>
