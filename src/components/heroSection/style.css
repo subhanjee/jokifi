@@ -250,6 +250,39 @@
   height: 14rem;
   margin-left: 35rem;
 }
+.imm-pos13 {
+  position: absolute;
+  z-index: -1;
+  margin-top: -39rem;
+  width: 35vw;
+  height: 60vh;
+  margin-left: -22rem;
+}
+.imm-pos14 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 1rem;
+  width: 40vw;
+  height: 65vh;
+  margin-left: -22rem;
+}
+.imm-pos15 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 5rem;
+  width: 40vw;
+  height: 65vh;
+  margin-left: -7rem;
+}
+.imm-pos16 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 6rem;
+  width: 40vw;
+  height: 65vh;
+  margin-left: 5rem;
+  border-radius: 50%;
+}
 @media (max-width: 2560px) {
   .cloud-img {
     position: absolute;

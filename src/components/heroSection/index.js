@@ -25,6 +25,10 @@ import immm9 from "../../images/Yuppies Clock.png";
 import immm10 from "../../images/Yuppies Doodle Cloud 4.png";
 import immm11 from "../../images/Yuppies Doodle Cloud 5.png";
 import immm12 from "../../images/Yuppies Doodle Cloud 1.png";
+import immm13 from "../../images/Ellipse 5.png";
+import immm14 from "../../images/Ellipse 10 (1).png";
+import immm15 from "../../images/Ellipse 1.png";
+import immm16 from "../../images/Ellipse 7.png";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -45,6 +49,7 @@ function HeroSection() {
               <img src={immm10} alt="" className="imm-pos10" />
               <img src={immm} alt="" className="imm-pos" />
               <img src={immm1} alt="" className="imm-pos1" />
+              <img src={immm13} alt="" className="imm-pos13" />
               <div className="margin-hero">
                 <img src={joke} alt="" className="siz-joke" />
                 <img src={fi} alt="" className="siz-joke1" />
@@ -53,16 +58,19 @@ function HeroSection() {
                   <img src={react1} alt="" className="siz-joke2" />
                 </div>
                 <img src={immm2} alt="" className="imm-pos2" />
+                <img src={immm14} alt="" className="imm-pos14" />
                 <img src={immm3} alt="" className="imm-pos3" />
               </div>
             </div>
           </Col>
+          <img src={immm15} alt="" className="imm-pos15" />
           <Col xxl={5} xl={8} lg={10} md={11}>
             <div className="center-joke-col">
               <img src={immm4} alt="" className="imm-pos4" />
               <img src={immm5} alt="" className="imm-pos5" />
               <img src={immm11} alt="" className="imm-pos11" />
               <img src={immm12} alt="" className="imm-pos12" />
+              <img src={immm16} alt="" className="imm-pos16" />
 
               <img />
               <div className="div-timer">
