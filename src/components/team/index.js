@@ -30,7 +30,7 @@ function Team() {
           <div className="main-bg-team">
             <Row justify="center">
               {data.map((item) => (
-                <Col lg={6} md={6} xs={12}>
+                <Col lg={6} md={6} xs={8}>
                   <div className="center-team">
                     <div className="div-team">
                       <div>{item.img}</div>

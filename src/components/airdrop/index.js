@@ -16,7 +16,7 @@ function Airdrop() {
       <Row justify="center">
         <Col>
           <div className="center-col-air1">
-            <img src={airImge2} alt="" className="air-pos-air"/>
+            <img src={airImge2} alt="" className="air-pos-air" />
             <div className="div-airr">
               <p className="text-air ">Airdrop Whitelist</p>
               <p className="text-air1 ">
@@ -98,7 +98,7 @@ function Airdrop() {
         </Col>
         <Col>
           <div className="center-col-air">
-            <div className="center-col-air">
+            <div className="center-col-air12">
               <img src={airImge1} alt="" className="img-air1" />
               <img src={airImge} alt="" className="img-air" />
             </div>

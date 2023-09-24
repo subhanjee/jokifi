@@ -38,7 +38,7 @@ function About() {
               </div>
             </Col>
             <Col>
-              <div className="center-col-about">
+              <div className="center-col-about11">
                 <div>
                   <img src={qout} alt="" className="qout-size" />
                   <div className="pos-comm-text1">

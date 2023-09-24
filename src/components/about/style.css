@@ -34,6 +34,12 @@
   align-items: center;
   margin-top: 1rem;
 }
+.center-col-about11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 .pos-comm-text {
   position: absolute;
   margin-top: -16rem;
@@ -75,7 +81,6 @@
   border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
   border-image-slice: 1;
   border-radius: 1rem;
-  height: 60rem;
   margin-top: 8rem;
   width: 27.625rem;
   height: 64rem;
@@ -185,6 +190,36 @@
     padding: 80px 0px;
     margin-bottom: 30rem;
   }
+  .center-col-about11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+  }
+  .div-road {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    border-image-slice: 1;
+    border-radius: 1rem;
+    margin-top: 8rem;
+    width: 27.625rem;
+    height: 72rem;
+    padding: 1rem;
+  }
+  .img-rand-size {
+    width: 24.156rem;
+    height: 65.531rem;
+  }
+  .text-about-m2 {
+    text-align: center;
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+  }
   .pos-vec-road {
     display: none;
   }
@@ -196,6 +231,64 @@
   }
   .pos-vec-road3 {
     display: none;
+  }
+  .div-pos-road {
+    background: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    box-shadow: 0px 2px 200px 0px #00000040;
+    width: 20.313rem;
+    height: 15.875rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: -4rem;
+    padding: 0.5rem;
+  }
+  .div-pos-road1 {
+    background: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    box-shadow: 0px 2px 200px 0px #00000040;
+    width: 20.313rem;
+    height: 15.875rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 26rem;
+    margin-left: 18rem;
+    padding: 0.5rem;
+  }
+  .div-pos-road2 {
+    background: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    box-shadow: 0px 2px 200px 0px #00000040;
+    width: 18.313rem;
+    height: 16.875rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: -10rem;
+  }
+  .div-pos-road3 {
+    background: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    box-shadow: 0px 2px 200px 0px #00000040;
+    width: 18.313rem;
+    height: 16.875rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 48rem;
+    margin-left: 15rem;
   }
 }
 @media (max-width: 375px) {
