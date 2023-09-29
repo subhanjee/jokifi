@@ -4,6 +4,7 @@ import "./style.css";
 import airImge from "../../images/image 20 (2).png";
 import airImge1 from "../../images/image 21 (1).png";
 import airImge2 from "../../images/Ellipse 16 (1).png";
+import airImge3 from "../../images/Ellipse 14.png";
 const onFinish = (values) => {
   console.log("Success:", values);
 };
@@ -17,6 +18,7 @@ function Airdrop() {
         <Col>
           <div className="center-col-air1">
             <img src={airImge2} alt="" className="air-pos-air" />
+            <img src={airImge3} alt="" className="air-pos-air345" />
             <div className="div-airr">
               <p className="text-air ">Airdrop Whitelist</p>
               <p className="text-air1 ">
@@ -86,7 +88,7 @@ function Airdrop() {
                     <Input className="input-air" />
                   </Form.Item>
 
-                  <Form.Item>
+                  <Form.Item className="mbl-center-btn">
                     <button className="btn-sub-air " htmlType="submit">
                       Submit
                     </button>

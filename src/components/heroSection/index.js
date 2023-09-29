@@ -29,6 +29,7 @@ import immm13 from "../../images/Ellipse 5.png";
 import immm14 from "../../images/Ellipse 10 (1).png";
 import immm15 from "../../images/Ellipse 1.png";
 import immm16 from "../../images/Ellipse 7.png";
+import immm17 from "../../images/Vector (29).png";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -77,6 +78,7 @@ function HeroSection() {
                 <Timer />
                 <div className="center-proo">
                   <img src={react2} alt="" className="pro-pos" />
+                  <img src={immm17} alt="" className="pro-pos12" />
                   <Progress
                     percent={50}
                     status="active"
@@ -125,30 +127,32 @@ function HeroSection() {
                       onFinishFailed={onFinishFailed}
                       autoComplete="off"
                     >
-                      <Form.Item
-                        name="username"
-                        rules={[
-                          {
-                            required: true,
-                            message: "Please input your username!",
-                          },
-                        ]}
-                      >
-                        <p className="text-heroeth ">ETH you pay</p>
-                        <Input className="input-hero" />
-                      </Form.Item>
-                      <Form.Item
-                        name="username"
-                        rules={[
-                          {
-                            required: true,
-                            message: "Please input your username!",
-                          },
-                        ]}
-                      >
-                        <p className="text-heroeth ">JKFI You Get</p>
-                        <Input className="input-hero" />
-                      </Form.Item>
+                      <div className="div-flex-form-her0">
+                        <Form.Item
+                          name="username"
+                          rules={[
+                            {
+                              required: true,
+                              message: "Please input your username!",
+                            },
+                          ]}
+                        >
+                          <p className="text-heroeth ">ETH you pay</p>
+                          <Input className="input-hero" />
+                        </Form.Item>
+                        <Form.Item
+                          name="username"
+                          rules={[
+                            {
+                              required: true,
+                              message: "Please input your username!",
+                            },
+                          ]}
+                        >
+                          <p className="text-heroeth ">JKFI You Get</p>
+                          <Input className="input-hero" />
+                        </Form.Item>
+                      </div>
                       <div className="flex-btn">
                         <Form.Item>
                           <button
@@ -159,7 +163,7 @@ function HeroSection() {
                             Buy Now!
                           </button>
                         </Form.Item>
-                        <Form.Item>
+                        <Form.Item className="mbl-mt">
                           <button
                             type="primary"
                             htmlType="submit"
