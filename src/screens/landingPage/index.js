@@ -8,33 +8,78 @@ import Team from "../../components/team";
 import Tokencomics from "../../components/tokencomics";
 import About from "../../components/about";
 import HeroSection from "../../components/heroSection";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+const handleDragStart = (e) => e.preventDefault();
+const responsive = {
+  320: { items: 2 },
+  375: { items: 2 },
+  425: { items: 2 },
+  568: { items: 3 },
+  1024: { items: 4 },
+  1440: { items: 4 },
+  2560: { items: 4 },
+};
+const items = [
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+];
 function LandingPage() {
   return (
     <div>
       <br />
       <div className="flex-land">
-        <div className="flex-land1">
-          <p className="text-land">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit |
-          </p>
-          <p className="text-land">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit |
-          </p>
-          <p className="text-land">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit |
-          </p>
-          <p className="text-land">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit |
-          </p>
-          <p className="text-land">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit |
-          </p>
-        </div>
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          disableDotsControls
+          disableSlideInfo
+          disableButtonsControls
+          autoPlay
+          animationDuration={2000}
+          infinite
+          responsive={responsive}
+        />
       </div>
       <br />
       <CollapsibleExample />
+      <div className="flex-land23">
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          disableDotsControls
+          disableSlideInfo
+          disableButtonsControls
+          autoPlay
+          animationDuration={2000}
+          infinite
+          responsive={responsive}
+        />
+      </div>
       <HeroSection />
-      <br />
       <br />
       <About />
       <br />

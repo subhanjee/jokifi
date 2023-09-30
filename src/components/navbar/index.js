@@ -4,14 +4,12 @@ import Navbar from "react-bootstrap/Navbar";
 import "./style.css";
 function CollapsibleExample() {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      className="bg-body-tertiary"
-      style={{ boxShadow: "0px 11px 19px 0px #00000073" }}
-    >
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary shadow">
       <Container>
-        {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+        <Nav.Link className="text-nvbr23">Home</Nav.Link>
+        <Nav.Link className="center-btn12">
+          <button className="wallet-btn">Wallet Connect</button>
+        </Nav.Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>

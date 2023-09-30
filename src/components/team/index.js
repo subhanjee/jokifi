@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
 import { Col, Row } from "antd";
-import team1 from "../../images/Team1.png";
-import team2 from "../../images/Team2.png";
-import team3 from "../../images/Team3.png";
-import team4 from "../../images/Team4.png";
-import team5 from "../../images/Team5.png";
-import team6 from "../../images/team6.png";
-import team7 from "../../images/Team7.png";
-import team8 from "../../images/Team8.png";
+import team1 from "../../images/Group 11.png";
+import team2 from "../../images/Group 10.png";
+import team3 from "../../images/Group 12.png";
+import team4 from "../../images/Group 13.png";
+import team5 from "../../images/Group 15.png";
+import team6 from "../../images/Group 16.png";
+import team7 from "../../images/Group 17.png";
+import team8 from "../../images/Group 14.png";
 import { Container } from "react-bootstrap";
 
 const data = [
@@ -26,22 +26,22 @@ function Team() {
     <div className="main-team">
       <div>
         <p className="team-text">Team</p>
-        <Container>
-          <div className="main-bg-team">
+        <div className="main-bg-team">
+          <Container>
             <Row justify="center">
               {data.map((item) => (
                 <Col lg={6} md={6} xs={8}>
                   <div className="center-team">
-                    <div className="div-team">
-                      <div>{item.img}</div>
-                    </div>
+                    {/* <div className="div-team"> */}
+                    <div>{item.img}</div>
+                    {/* </div> */}
                     <p className="team-text1 ">{item.name}</p>
                   </div>
                 </Col>
               ))}
             </Row>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </div>
     </div>
   );

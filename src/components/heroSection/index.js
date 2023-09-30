@@ -30,6 +30,7 @@ import immm14 from "../../images/Ellipse 10 (1).png";
 import immm15 from "../../images/Ellipse 1.png";
 import immm16 from "../../images/Ellipse 7.png";
 import immm17 from "../../images/Vector (29).png";
+import immm18 from "../../images/image 15 (2).png";
 
 const onFinish = (values) => {
   console.log("Success:", values);
@@ -117,7 +118,7 @@ function HeroSection() {
                 </div>
                 <br />
                 <div className="flex-form-img">
-                  <div>
+                  <div className="center-mbl-form">
                     <Form
                       name="basic"
                       initialValues={{
@@ -178,6 +179,7 @@ function HeroSection() {
                   </div>
                   <div>
                     <img src={image} alt="" className="size-img-herrr" />
+                    <img src={immm18} alt="" className="size-img-herrrmbl" />
                   </div>
                 </div>
               </div>

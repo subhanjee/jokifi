@@ -26,3 +26,46 @@
   justify-content: center !important;
   align-items: center !important;
 }
+.center-btn12 {
+  display: none !important;
+}
+.text-nvbr23 {
+  display: none !important;
+}
+.navbar-toggler-icon {
+  background-image: url("../../images/Group\ 22.png") !important;
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+@media (max-width: 425px) {
+  .center-btn12 {
+    display: flex !important;
+    position: absolute;
+    margin-left: 38rem;
+  }
+  .text-nvbr23 {
+    display: flex !important;
+    position: absolute;
+    font-size: 1.5rem !important;
+    margin-left: 6rem;
+    font-family: "Audiowide" !important;
+    font-weight: 600;
+  }
+}
+@media (max-width: 375px) {
+  .center-btn12 {
+    display: flex !important;
+    position: absolute;
+    margin-left: 32rem;
+  }
+}
+@media (max-width: 320px) {
+  .center-btn12 {
+    display: flex !important;
+    position: absolute;
+    margin-left: 25rem;
+  }
+}

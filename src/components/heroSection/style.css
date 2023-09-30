@@ -286,6 +286,9 @@
 .pro-pos12 {
   display: none;
 }
+.size-img-herrrmbl {
+  display: none;
+}
 @media (max-width: 2560px) {
   .cloud-img {
     position: absolute;
@@ -458,7 +461,87 @@
 @media (max-width: 425px) {
   .size-img-herrr {
     margin-top: -1rem;
-    width: 18rem;
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 7rem;
+  }
+  .cloud-img {
+    display: none;
+  }
+  .center-joke-col1 {
+    margin-top: -18rem;
+    margin-bottom: 10rem;
+  }
+  .imm-pos16 {
+    position: absolute;
+    z-index: -1;
+    margin-top: 6rem;
+    width: 104%;
+    height: 100vh;
+    margin-left: 0rem;
+    border-radius: 0%;
+  }
+  .imm-pos12 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -10rem;
+    height: 10rem;
+    margin-left: 15rem;
+    display: flex;
+  }
+  .main-jokefi {
+    padding: 20px 0px;
+  }
+  .imm-pos5 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -8rem;
+    height: 15rem;
+    margin-left: 29rem;
+    display: flex;
+  }
+  .imm-pos {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-left: -7rem;
+    margin-top: 18rem;
+    height: 18rem;
+  }
+  .imm-pos1 {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-left: 25rem;
+    margin-top: 79rem;
+    height: 12rem;
+  }
+  .imm-pos3 {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-top: 62rem;
+    height: 12rem;
+    margin-left: 2rem;
+  }
+  .imm-pos11 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -14rem;
+    height: 11rem;
+    margin-left: 30rem;
+    display: flex;
+  }
+  .size-img-herrrmbl {
+    display: flex;
+    margin-top: -1rem;
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: -20rem;
   }
   .div-flex-form-her0 {
     display: flex;
@@ -519,14 +602,68 @@
     font-style: normal !important;
     font-size: 1.1rem;
   }
+  .flex-form-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .cloud-img {
     position: absolute;
     z-index: -1;
     height: 15rem;
     margin-left: 14rem;
     margin-top: -18rem;
+  }
+  .imm-pos12 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -10rem;
+    height: 10rem;
+    margin-left: 13rem;
+    display: flex;
+  }
+  .imm-pos5 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -6rem;
+    height: 9.5rem;
+    margin-left: 28rem;
+    display: flex;
+  }
+  .imm-pos {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-left: -4rem;
+    margin-top: 18rem;
+    height: 15rem;
+  }
+  .imm-pos1 {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-left: 25rem;
+    margin-top: 79rem;
+    height: 12rem;
+  }
+  .imm-pos3 {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    margin-top: 62rem;
+    height: 12rem;
+    margin-left: 2rem;
+  }
+  .imm-pos11 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -14rem;
+    height: 9rem;
+    margin-left: 29rem;
+    display: flex;
   }
   .pro-pos12 {
     display: flex;

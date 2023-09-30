@@ -16,3 +16,17 @@
   margin-left: 0.4rem;
   margin-top: 0.5rem;
 }
+.flex-land23 {
+  display: none;
+}
+@media (max-width: 425px) {
+  .flex-land23 {
+    background-color: black;
+    color: white;
+    margin-top: 4rem;
+    display: flex;
+  }
+  .flex-land {
+    display: none;
+  }
+}
