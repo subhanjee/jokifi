@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
 }
-/* .main-token {
-  padding: 40px 0px;
-} */
+.main-token {
+  margin-bottom: 10rem;
+}
 .center-col-token {
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
   width: 100vw;
   height: 100vh;
 }
-.pos-img1 {
+.pos-img1-tokrr {
   position: absolute;
   z-index: -1;
   width: 53.5vw;
@@ -138,8 +138,228 @@
   background: linear-gradient(180deg, #eed4c5 0%, #bbade4 100%);
   padding: 40px 0px;
 } */
+@media (max-width: 2560px) {
+  .div-tokn-percent {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    border-image-slice: 1;
+    border-radius: 1rem !important;
+    width: 70rem;
+    height: auto;
+    padding: 4rem;
+  }
+  .tok-img {
+    height: 25rem;
+  }
+  .div-token-bit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60rem;
+  }
+  .tokis-text1 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .tokis-text {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .pink-div {
+    background: #ffd1b7;
+    width: 12rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+    margin-top: -6rem;
+  }
+  .pink1-div {
+    background: #e6c4c8;
+    width: 12rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  .pink2-div {
+    background: #d5bbd4;
+    width: 12rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+  }
+  .pink3-div {
+    background: #c7b4dd;
+    width: 12rem;
+    height: 6rem;
+    margin-bottom: 0.7rem;
+  }
+  .pink4-div {
+    background: #bcaee4;
+    width: 12rem;
+    height: 4rem;
+    margin-bottom: 0.7rem;
+  }
+  .text-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: bold !important;
+    color: black !important;
+    margin-bottom: 8rem;
+  }
+  .text1-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 2.3rem;
+    font-weight: 800 !important;
+    color: black !important;
+    margin-bottom: 8rem;
+  }
+  .vect-token {
+    height: 70rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .vect-token1 {
+    position: absolute;
+    margin-top: -20rem;
+    width: 80rem;
+  }
+  .vect-token2 {
+    position: absolute;
+    margin-top: 12rem;
+    width: 80rem;
+  }
+  .pos-img1-tokrr {
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    height: 100vh;
+    left: 0;
+  }
+}
+@media (max-width: 1440px) {
+  .div-tokn-percent {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, #ffd1b7 0%, #bbade4 100%);
+    border-image-slice: 1;
+    border-radius: 1rem !important;
+    width: 45rem;
+    height: auto;
+    padding: 2rem;
+  }
+  .main-token {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+  .vect-token {
+    height: 32rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .vect-token1 {
+    position: absolute;
+    margin-top: -12rem;
+    width: 40rem;
+  }
+  .vect-token2 {
+    position: absolute;
+    margin-top: 6.5rem;
+    width: 40rem;
+  }
+  .text-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.6rem;
+    font-weight: bold !important;
+    color: black !important;
+    margin-bottom: 4rem;
+  }
+  .text1-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.1rem;
+    font-weight: 800 !important;
+    color: black !important;
+    margin-bottom: 4rem;
+  }
+  .tokis-text {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .tokis-text1 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .tok-img {
+    height: 15rem;
+  }
+  .div-token-bit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38rem;
+  }
+  .pink-div {
+    background: #ffd1b7;
+    width: 7rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+    margin-top: -6rem;
+  }
+  .pink1-div {
+    background: #e6c4c8;
+    width: 7rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+  }
+  .pink2-div {
+    background: #d5bbd4;
+    width: 7rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+  .pink3-div {
+    background: #c7b4dd;
+    width: 7rem;
+    height: 3rem;
+    margin-bottom: 0.7rem;
+  }
+  .pink4-div {
+    background: #bcaee4;
+    width: 7rem;
+    height: 2rem;
+    margin-bottom: 0.7rem;
+  }
+  .pos-img1-tokrr {
+    position: absolute;
+    z-index: -1;
+    width: 54vw;
+    height: 100vh;
+    left: 0;
+  }
+}
 @media (max-width: 1024px) {
-  .pos-img1 {
+  .pos-img1-tokrr {
     position: absolute;
     z-index: -1;
     width: 50vw;
@@ -173,7 +393,7 @@
     width: 100vw;
     height: 150vh;
   }
-  .pos-img1 {
+  .pos-img1-tokrr {
     position: absolute;
     z-index: -1;
     width: 85vw;
@@ -198,7 +418,7 @@
     width: 100vw;
     height: 150vh;
   }
-  .pos-img1 {
+  .pos-img1-tokrr {
     position: absolute;
     z-index: -1;
     width: 90vw;
@@ -213,7 +433,7 @@
     width: 100vw;
     height: 150vh;
   }
-  .pos-img1 {
+  .pos-img1-tokrr {
     position: absolute;
     z-index: -1;
     width: 96.5vw;

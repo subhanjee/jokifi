@@ -85,9 +85,6 @@ function LandingPage() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
       <Tokencomics />
       <Team />
       <Airdrop />
