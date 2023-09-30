@@ -133,6 +133,208 @@
   width: 100vw;
   height: 100vh;
 }
+@media (max-width: 2560px) {
+  .div-airr {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 2rem;
+    width: 75rem;
+    height: auto;
+  }
+  .main-divvv {
+    padding: 80px 0px;
+    margin-bottom: -8rem;
+  }
+  .text-air {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    text-align: center;
+    color: #000000;
+  }
+  .text-air1 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+  }
+  .text-air2 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 2.6rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 1rem;
+  }
+
+  .text-air3 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+  }
+  .text-air4 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 2.6rem;
+    color: white;
+    line-height: 10.7px;
+    margin-top: 1rem;
+  }
+  .text-air6 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 10.7px;
+    margin-top: 1rem;
+  }
+  .img-air {
+    height: 35rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-air1 {
+    height: 35rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+  }
+  .text-air5 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+  }
+  .input-air {
+    width: 40rem;
+    background-color: #000000 !important;
+    color: white !important;
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    margin-top: -0.5rem;
+    height: 5rem;
+  }
+  .btn-sub-air {
+    background-color: black !important;
+    width: 15rem !important;
+    padding: 1rem !important;
+    border-radius: 0.3rem !important;
+    text-align: center !important;
+    color: white !important;
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    border: #00000073 1px solid;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1440px) {
+  .div-airr {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 2rem;
+    width: 50rem;
+    height: auto;
+  }
+  .btn-sub-air {
+    background-color: black !important;
+    width: 10rem !important;
+    padding: 0.5rem !important;
+    border-radius: 0.3rem !important;
+    text-align: center !important;
+    color: white !important;
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    border: #00000073 1px solid;
+    font-size: 1.5rem;
+  }
+  .input-air {
+    width: 30rem;
+    background-color: #000000 !important;
+    color: white !important;
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    margin-top: -0.5rem;
+    height: 4rem;
+  }
+  .main-divvv {
+    padding: 80px 0px;
+    margin-bottom: -5rem;
+  }
+  .text-air5 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+  }
+  .text-air {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+  }
+  .text-air1 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+  }
+  .text-air2 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 1rem;
+  }
+
+  .text-air3 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+  }
+  .text-air4 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 10.7px;
+    margin-top: 1rem;
+  }
+  .text-air6 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 10.7px;
+    margin-top: 1rem;
+  }
+  .img-air {
+    height: 25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-air1 {
+    height: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+  }
+}
 @media (max-width: 425px) {
   .center-col-air12 {
     display: flex;

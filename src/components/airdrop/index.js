@@ -15,7 +15,7 @@ function Airdrop() {
   return (
     <div className="main-divvv">
       <Row justify="center">
-        <Col>
+        <Col xxl={6} xl={8}>
           <div className="center-col-air1">
             <img src={airImge2} alt="" className="air-pos-air" />
             <img src={airImge3} alt="" className="air-pos-air345" />
@@ -98,7 +98,7 @@ function Airdrop() {
             </div>
           </div>
         </Col>
-        <Col>
+        <Col xxl={6} xl={8}>
           <div className="center-col-air">
             <div className="center-col-air12">
               <img src={airImge1} alt="" className="img-air1" />

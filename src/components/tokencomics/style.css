@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
 }
-.main-token {
+/* .main-token {
   padding: 40px 0px;
-}
+} */
 .center-col-token {
   display: flex;
   justify-content: center;
@@ -17,13 +17,13 @@
   position: absolute;
   z-index: -1;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
 }
 .pos-img1 {
   position: absolute;
   z-index: -1;
   width: 53.5vw;
-  height: 80vh;
+  height: 100vh;
   left: 0;
 }
 .center-col-token1 {
@@ -134,6 +134,10 @@
   text-align: center;
   margin-top: 0.5rem;
 }
+/* .bg-tokeeee {
+  background: linear-gradient(180deg, #eed4c5 0%, #bbade4 100%);
+  padding: 40px 0px;
+} */
 @media (max-width: 1024px) {
   .pos-img1 {
     position: absolute;
