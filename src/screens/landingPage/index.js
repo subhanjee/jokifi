@@ -18,9 +18,19 @@ const responsive = {
   568: { items: 3 },
   1024: { items: 4 },
   1440: { items: 4 },
-  2560: { items: 4 },
+  2560: { items: 5 },
 };
 const items = [
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
+  <div onDragStart={handleDragStart}>
+    <p className="text-land">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit |
+    </p>
+  </div>,
   <div onDragStart={handleDragStart}>
     <p className="text-land">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit |

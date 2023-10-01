@@ -40,6 +40,63 @@
 .navbar-toggler {
   border: none !important;
 }
+@media (max-width: 2560px) {
+  .text-nvbr {
+    color: black !important;
+    font-size: 3rem !important;
+    font-family: "Luckiest Guy" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    padding: 1rem !important;
+    text-align: center !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .wallet-btn {
+    background-color: black !important;
+    width: 30rem !important;
+    padding: 1rem !important;
+    border-radius: 0.3rem !important;
+    text-align: center !important;
+    color: white !important;
+    font-family: "Luckiest Guy" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    box-shadow: 0px 11px 19px 0px #00000073;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: #00000073 1px solid;
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 1440px) {
+  .text-nvbr {
+    color: black !important;
+    font-size: 1.5rem !important;
+    font-family: "Luckiest Guy" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    padding: 1.5rem !important;
+    text-align: center !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .wallet-btn {
+    background-color: black !important;
+    width: 15rem !important;
+    padding: 0.8rem !important;
+    border-radius: 0.3rem !important;
+    text-align: center !important;
+    color: white !important;
+    font-family: "Luckiest Guy" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    box-shadow: 0px 11px 19px 0px #00000073;
+    margin-left: 2rem;
+    border: #00000073 1px solid;
+    font-size: 1.5rem;
+  }
+}
 @media (max-width: 425px) {
   .center-btn12 {
     display: flex !important;

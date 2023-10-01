@@ -19,6 +19,26 @@
 .flex-land23 {
   display: none;
 }
+@media (max-width: 2560px) {
+  .text-land {
+    font-family: "Fugaz One" !important;
+    font-style: normal !important;
+    font-size: 1.5rem;
+    text-align: center !important;
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 1440px) {
+  .text-land {
+    font-family: "Fugaz One" !important;
+    font-style: normal !important;
+    font-size: 1rem;
+    text-align: center !important;
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+  }
+}
 @media (max-width: 425px) {
   .flex-land23 {
     background-color: black;

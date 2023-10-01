@@ -560,7 +560,7 @@
     position: absolute;
     height: 11rem;
     margin-top: 30rem;
-    /* margin-left: -8rem; */
+    margin-left: -8rem;
     z-index: 1;
   }
   .pos-vec-road2 {
