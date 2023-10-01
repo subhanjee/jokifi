@@ -44,7 +44,7 @@ function HeroSection() {
       <img src={cloud} className="cloud-img" />
       <div>
         <Row justify="center">
-          <Col xxl={8} xl={8} lg={10} md={10}>
+          <Col xxl={9} xl={8} lg={10} md={10}>
             <div className="center-joke-col1">
               <img src={immm8} alt="" className="imm-pos8" />
               <img src={immm9} alt="" className="imm-pos9" />
@@ -66,7 +66,7 @@ function HeroSection() {
             </div>
           </Col>
           <img src={immm15} alt="" className="imm-pos15" />
-          <Col xxl={8} xl={8} lg={10} md={10}>
+          <Col xxl={9} xl={8} lg={10} md={10}>
             <div className="center-joke-col">
               <img src={immm4} alt="" className="imm-pos4" />
               <img src={immm5} alt="" className="imm-pos5" />

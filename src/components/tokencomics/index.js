@@ -12,7 +12,7 @@ function Tokencomics() {
     <div className="main-token">
       <div>
         <Row justify="center">
-          <Col lg={11} xl={8} xxl={8} md={12} className="col-bg ">
+          <Col xxl={10} lg={11} xl={8} md={12} className="col-bg ">
             <div className="center-col-token">
               <img src={vector3} alt="" className="pos-img" />
               <div className="div-token">
@@ -76,7 +76,7 @@ function Tokencomics() {
               </div>
             </div>
           </Col>
-          <Col lg={11} xl={10} xxl={8} md={12}>
+          <Col xxl={10} lg={11} xl={10} md={12}>
             <div className="center-col-token1">
               <img src={vector4} alt="" className="pos-img1-tokrr" />
               <div className="div-tokn-percent">
