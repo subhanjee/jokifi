@@ -1085,6 +1085,7 @@
   .div-flex-form-her0 {
     display: flex;
     justify-content: space-between;
+    width: 30rem;
   }
   .flex-btn {
     display: flex;
@@ -1119,7 +1120,7 @@
     margin-top: -18rem;
   }
   .input-hero {
-    width: 12rem;
+    width: 14rem;
     background-color: black !important;
     color: white !important;
     font-family: "Audiowide" !important;
@@ -1206,14 +1207,14 @@
     position: absolute;
     z-index: -1;
     margin-left: 25rem;
-    margin-top: 79rem;
+    margin-top: 83rem;
     height: 12rem;
   }
   .imm-pos3 {
     display: flex;
     position: absolute;
     z-index: -1;
-    margin-top: 62rem;
+    margin-top: 68rem;
     height: 12rem;
     margin-left: 2rem;
   }
