@@ -504,10 +504,10 @@
     margin-bottom: 25rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .main-about {
     padding: 80px 0px;
-    margin-bottom: 30rem;
+    margin-bottom: 5rem;
   }
   .center-col-about11 {
     display: flex;
