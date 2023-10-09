@@ -18,6 +18,17 @@
     font-weight: 500;
   }
 }
+@media (max-width: 1920px) {
+  .div-timer12 {
+    font-family: "Audiowide" !important;
+    font-style: normal !important;
+    font-size: 3.5rem !important;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: black;
+    font-weight: 500;
+  }
+}
 @media (max-width: 1440px) {
   .div-timer12 {
     font-family: "Audiowide" !important;

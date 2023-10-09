@@ -262,6 +262,22 @@
     margin-top: 12rem;
     width: 80rem;
   }
+  .text-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: bold !important;
+    color: black !important;
+    margin-bottom: 8rem;
+  }
+  .text1-token {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 2rem;
+    font-weight: 800 !important;
+    color: black !important;
+    margin-bottom: 8rem;
+  }
 }
 @media (max-width: 1440px) {
   .div-tokn-percent {
@@ -401,7 +417,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 20rem;
   }
   .pos-img {
     position: absolute;
