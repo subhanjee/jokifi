@@ -95,6 +95,11 @@ function LandingPage() {
       <br />
       <br />
       <br />
+      <div className="mbl-500">
+        {" "}
+        <br />
+        <br />
+      </div>
       <Tokencomics />
       <Team />
       <Airdrop />

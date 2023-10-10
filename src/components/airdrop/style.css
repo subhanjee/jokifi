@@ -343,6 +343,12 @@
     flex-direction: row;
     width: 45rem;
   }
+  .center-col-air1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .air-pos-air345 {
     display: flex;
     position: absolute;

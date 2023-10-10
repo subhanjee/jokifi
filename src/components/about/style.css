@@ -307,7 +307,7 @@
   }
   .main-about {
     padding: 80px 0px;
-    margin-bottom: 85rem;
+    margin-bottom: 95rem;
   }
   .pos-vec-road {
     position: absolute;
@@ -505,7 +505,7 @@
 @media (max-width: 1440px) {
   .main-about {
     padding: 80px 0px;
-    margin-bottom: 35rem;
+    margin-bottom: 15rem;
   }
   .bg-about {
     background-image: url("../../images/Mask\ group\ \(2\).png");
@@ -686,7 +686,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3rem;
+    margin-top: 1rem;
   }
   .div-road {
     background-color: white;

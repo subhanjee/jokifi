@@ -100,10 +100,17 @@
     margin-bottom: 5rem;
   }
 }
+@media (max-width: 425px) {
+  .img-size-team {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 0.5rem;
+  }
+}
 @media (max-width: 320px) {
   .img-size-team {
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 0.5rem;
   }
 }

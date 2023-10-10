@@ -134,6 +134,16 @@
   text-align: center;
   margin-top: 0.5rem;
 }
+.main-tokenc-text {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-size: 3rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: -5rem;
+  margin-bottom: 5rem;
+}
 /* .bg-tokeeee {
   background: linear-gradient(180deg, #eed4c5 0%, #bbade4 100%);
   padding: 40px 0px;
@@ -417,7 +427,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 25rem;
+  }
+  .main-tokenc-text {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
     margin-top: 20rem;
+    margin-bottom: -15rem;
   }
   .pos-img {
     position: absolute;
@@ -444,6 +464,18 @@
     width: 42rem;
     padding: 2rem;
   }
+  .main-tokenc-text {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 42rem;
+    margin-bottom: 0rem;
+    margin-left: 20rem;
+    position: absolute;
+  }
   .center-col-token {
     display: flex;
     justify-content: center;
@@ -465,12 +497,38 @@
     left: none;
   }
 }
+@media (max-width: 375px) {
+  .main-tokenc-text {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 40rem;
+    margin-bottom: 0rem;
+    margin-left: 15rem;
+    position: absolute;
+  }
+}
 @media (max-width: 320px) {
   .pos-img {
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 150vh;
+  }
+  .main-tokenc-text {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 40rem;
+    margin-bottom: 0rem;
+    margin-left: 12rem;
+    position: absolute;
   }
   .pos-img1-tokrr {
     position: absolute;

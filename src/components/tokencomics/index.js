@@ -10,6 +10,7 @@ import vector4 from "../../images/Ellipse 13.png";
 function Tokencomics() {
   return (
     <div className="main-token">
+      <p className="main-tokenc-text">Tokencomics</p>
       <div>
         <Row justify="center">
           <Col xxl={10} lg={11} xl={8} md={12} className="col-bg ">
