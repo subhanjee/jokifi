@@ -91,7 +91,7 @@ function LandingPage() {
       </div>
       <HeroSection />
       <br />
-      <About />
+      {/* <About /> */}
       <br />
       <br />
       <br />
@@ -100,10 +100,10 @@ function LandingPage() {
         <br />
         <br />
       </div>
-      <Tokencomics />
-      <Team />
-      <Airdrop />
-      <ContactUs />
+      {/* <Tokencomics /> */}
+      {/* <Team /> */}
+      {/* <Airdrop /> */}
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );
