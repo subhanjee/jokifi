@@ -32,6 +32,13 @@
     margin-top: 0.5rem;
   }
 }
+@media (max-width: 1916px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -25rem;
+    display: flex;
+  }
+}
 @media (max-width: 1440px) {
   .text-land {
     font-family: "Fugaz One" !important;
@@ -40,6 +47,40 @@
     text-align: center !important;
     margin-left: 0.4rem;
     margin-top: 0.5rem;
+  }
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    display: flex;
+  }
+}
+
+@media (max-width: 1424px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -45rem;
+    display: flex;
+  }
+}
+@media (max-width: 1422px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+    display: flex;
+  }
+}
+@media (max-width: 1416px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    display: flex;
   }
 }
 @media (max-width: 500px) {

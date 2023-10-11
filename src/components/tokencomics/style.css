@@ -135,9 +135,9 @@
   margin-top: 0.5rem;
 }
 .main-tokenc-text {
-  font-family: "Montserrat" !important;
+  font-family: "Audiowide" !important;
   font-style: normal !important;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
   color: black;
   text-align: center;
@@ -430,7 +430,7 @@
     margin-top: 25rem;
   }
   .main-tokenc-text {
-    font-family: "Montserrat" !important;
+    font-family: "Audiowide" !important;
     font-style: normal !important;
     font-size: 3rem;
     font-weight: 600;
@@ -465,7 +465,7 @@
     padding: 2rem;
   }
   .main-tokenc-text {
-    font-family: "Montserrat" !important;
+    font-family: "Audiowide" !important;
     font-style: normal !important;
     font-size: 3rem;
     font-weight: 600;
@@ -499,7 +499,7 @@
 }
 @media (max-width: 375px) {
   .main-tokenc-text {
-    font-family: "Montserrat" !important;
+    font-family: "Audiowide" !important;
     font-style: normal !important;
     font-size: 3rem;
     font-weight: 600;
@@ -519,7 +519,7 @@
     height: 150vh;
   }
   .main-tokenc-text {
-    font-family: "Montserrat" !important;
+    font-family: "Audiowide" !important;
     font-style: normal !important;
     font-size: 3rem;
     font-weight: 600;
