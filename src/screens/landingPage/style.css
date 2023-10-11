@@ -63,3 +63,17 @@
     display: flex;
   }
 }
+@media (max-width: 390px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -45rem;
+    display: flex;
+  }
+}
+@media (max-width: 375px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    display: flex;
+  }
+}
