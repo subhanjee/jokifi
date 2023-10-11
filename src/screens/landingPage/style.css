@@ -54,6 +54,13 @@
     display: flex;
   }
 }
+@media (max-width: 1432px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -45rem;
+    display: flex;
+  }
+}
 
 @media (max-width: 1424px) {
   .mbl-500 {
@@ -72,7 +79,21 @@
 @media (max-width: 1416px) {
   .mbl-500 {
     margin-top: 2rem;
-    margin-bottom: -10rem;
+    margin-bottom: -45rem;
+    display: flex;
+  }
+}
+@media (max-width: 1411px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    display: flex;
+  }
+}
+@media (max-width: 1406px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
     display: flex;
   }
 }
