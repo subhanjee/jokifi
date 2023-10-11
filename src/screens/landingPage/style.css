@@ -63,7 +63,14 @@
     display: flex;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 414px) {
+  .mbl-500 {
+    margin-top: 2rem;
+    margin-bottom: -45rem;
+    display: flex;
+  }
+}
+@media (max-width: 393px) {
   .mbl-500 {
     margin-top: 2rem;
     margin-bottom: -45rem;
