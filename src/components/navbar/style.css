@@ -112,7 +112,7 @@
     font-weight: 600;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .center-btn12 {
     display: flex !important;
     position: absolute;
