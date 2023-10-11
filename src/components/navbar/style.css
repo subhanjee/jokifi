@@ -119,6 +119,13 @@
     margin-left: 32rem;
   }
 }
+@media (max-width: 375px) {
+  .center-btn12 {
+    display: flex !important;
+    position: absolute;
+    margin-left: 30rem;
+  }
+}
 @media (max-width: 320px) {
   .center-btn12 {
     display: flex !important;
